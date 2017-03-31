@@ -1,0 +1,45 @@
+#userForm {
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 0;
+    bottom: 0;
+    margin: auto;
+    width: 500px;
+    height: 400px;
+    text-align: center;
+}
+
+#userForm>div {
+    position: relative;
+}
+
+#userForm>div .warning{
+    display: inline-block;
+    position: absolute;
+    font-size: 12px;
+    color: red;
+    height: 23px;
+    line-height: 23px;
+    /*right: 0;*/
+}
+
+
+#userForm label {
+    display: inline-block;
+    width: 80px;
+}
+
+#message {
+    
+    height: 30px;
+}
+
+#submit-wrap {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#submit {
+    margin-left: 80px;
+}
